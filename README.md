@@ -1,7 +1,7 @@
 # Arduino Temperature Control System
 
 ## Schematic
-<img width="2000" height="2000" alt="Schematic Arduino Temperature Control System" src="https://github.com/user-attachments/assets/fa7846c9-f184-4918-bad7-88fc6c5ef3fd" />
+<img width="2000" height="2000" alt="Schematic Arduino Temperature Control System" src="https://github.com/user-attachments/assets/534c7cea-ca1f-4345-aaf8-2d110a210c0d" />
 
 ## Overview
 This project implements a temperature monitoring and control system based on an Arduino Uno and an LM35 temperature sensor.
