@@ -12,11 +12,14 @@ This project was developed as a practical application of embedded systems, senso
 
 ## Hardware
 - Arduino Uno
-- LM35
-- Relay
-- Fan
-- LEDs
-- Buzzer
+- LM35 Temperature Sensor
+- Relay Module
+- DC Fan
+- Yellow LED (Warning)
+- Red LED (Critical)
+- Active Buzzer
+- 2N2219 NPN Transistors
+- 1N4007 Flyback Diode
 
 ## Features
 - Temperature monitoring
