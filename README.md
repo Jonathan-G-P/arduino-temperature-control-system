@@ -21,8 +21,28 @@ This project was developed as a practical application of embedded systems, senso
 - 2N2219 NPN Transistors
 - 1N4007 Flyback Diode
 
+## Control Logic
+The system implements ON/OFF control with hysteresis.
+
+- Fan ON  : Temperature > 30°C
+- Fan OFF : Temperature < 28°C
+
+Alarm levels:
+
+- Warning : Temperature > 35°C
+- Critical: Temperature > 40°C
+
 ## Features
-- Temperature monitoring
-- Moving average filter
-- Hysteresis control
+- Real-time temperature monitoring
+- Moving average filtering
+- Hysteresis-based fan control
 - Warning and critical alarms
+- Relay-driven ventilation
+- Serial monitoring interface
+
+## Future Improvements
+- PID temperature control
+- LCD display
+- SD card data logging
+- Wireless monitoring using ESP32
+- PCB implementation
